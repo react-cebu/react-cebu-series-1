@@ -6,3 +6,20 @@
 // import the libraries you need first
 // use one of the libraries to render some JSX to the page
 
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+function App() {
+  return (
+    <ol>
+      <li>Hulk</li>
+      <li>Thor</li>
+      <li>Iron Man</li>
+    </ol>
+  )
+}
+
+ReactDOM.render(  
+  <App />,
+  document.getElementById("root")
+)
